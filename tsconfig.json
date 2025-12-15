@@ -3,6 +3,8 @@
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "outDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
     "strict": true
   }
 }
