@@ -1,0 +1,34 @@
+{
+  "name": "@blaahaj/remap-errno",
+  "version": "1.0.0",
+  "description": "Simplify extraction and handling of ENOENT, etc from 'error.code'",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./dist/src/index.js",
+      "types": "./dist/src/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write .",
+    "test": "concurrently 'npm:test:*'",
+    "test:format": "prettier --check .",
+    "test:unit": "echo \"Warning: no test specified\" >&2 && exit 0"
+  },
+  "keywords": [],
+  "author": "Rachel Evans <rachel@rachelevans.org>",
+  "license": "ISC",
+  "files": [
+    "*.md",
+    "LICENSE",
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "@commitlint/config-conventional": "^20.2.0",
+    "@types/node": "24.4.0",
+    "concurrently": "^9.1.2",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
