@@ -1,6 +1,6 @@
 {
   "name": "@blaahaj/remap-errno",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplify extraction and handling of ENOENT, etc from 'error.code'",
   "type": "module",
   "exports": {
